@@ -71,7 +71,7 @@ public class DataReddit {
 	 */
 	@Override
 	public String toString() {
-		return "DataReddit [upvote=" + upvote + ", subreddit=" + subreddit + ", threadTitle=" + threadTitle
-				+ ", linkComments=" + linkComments + ", linkThread=" + linkThread + "]";
+		return "UpVote: " + upvote + "\n\nSubReddit: " + subreddit + "\n\nThreadTitle: " + threadTitle
+				+ "\n\nLinkThread: " + linkThread + "\n\nLinkComments: " + linkComments +"\n\n-----\n\n";
 	}
 }
